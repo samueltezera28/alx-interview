@@ -14,5 +14,10 @@ def canUnlockAll(boxes):
     return len(unlocked) == len(boxes)
 
 
-if __name__ == '__main__':
+def main():
+    """Entry point"""
     canUnlockAll([[]])
+
+
+if __name__ == '__main__':
+    main()
